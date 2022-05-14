@@ -1,3 +1,54 @@
+# About this project
+
+# **** Todo Clone ****
+
+The idea is to create a simple todo app. This app will be for Desktop, tablets and mobile view.
+
+It will be a single page app.
+
+## Flow
+
+1.  Login screen
+2. homepage
+
+### Login screen:
+	a) login via username password
+	b) Login via google auth, implemented with firebase API
+
+### Homepage:
+	to list all the tasks for the day.
+
+## Features to have:
+1. Add/remove a task
+2. Select priority (High, Medium, Low)
+3. Add due date and time
+4. Mark as done
+5. Start task button, to show the timer since task has started.
+6. Put task on hold
+7. Add a note to the task. (use case: when user puts the task on hold, he can add a note as to whit is on hold and will be picked up later. not restricted to on hold). Can add multiple notes, which will be displayed on expanding the task card to reveal more information about the task.
+8. Initial cards will be collapsed.
+9. Show calendar, on selected a date show task for the day. (similar to one in below design)
+10. Group tasks by projects
+11. Backlog of tasks
+12. Overdue tasks, move to backlog
+
+
+## Design Inspiration:
+https://dribbble.com/shots/15637013-Teamwork-Dashboard-concept-redesign?utm_source=Clipboard_Shot&utm_campaign=guffqa&utm_content=Teamwork%20-%20Dashboard%20concept%20redesign&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=guffqa&utm_content=Teamwork%20-%20Dashboard%20concept%20redesign&utm_medium=Social_Share
+
+
+## Stack -Phase 1
+
+Frontend:
+React + redux
+
+Backend:
+Firebase (static API)
+
+API:
+REST/Graphql
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
